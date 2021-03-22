@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/updateButton"
+        android:icon="@drawable/ic_update_btn"
+        android:title="@string/updateButton"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/homeButton"
+        android:icon="@drawable/ic_home_button"
+        android:title="@string/homeButton"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/settingsButton"
+        android:icon="@drawable/ic_settings_button"
+        android:title="@string/settingsButton"
+        app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Plantoid</string>
+    <string name="plants">Plants</string>
+
+
+    <string name="plantAlias">Alias</string>
+    <string name="plantID">ID</string>
+
+    <string name="lastWatered">Last Watered</string>
+    <string name="lastWateredText">WateredText</string>
+
+    <string name="lastPolled">Last Polled</string>
+    <string name="lastPolledText">PolledText</string>
+
+    <string name="soilHumidity">Soil Humidity</string>
+    <string name="soilHumidityText">SoilHumidityText</string>
+
+    <string name="airHumidity">Air Humidity</string>
+    <string name="airHumidityText">AirHumidityText</string>
+
+    <string name="airTemp">Air Temperature</string>
+    <string name="airTempText">AirTempText</string>
+
+    <string name="lightExposure">Light Exposure</string>
+    <string name="lightExposureText">lightExposureText</string>
+
+    <string name="waterTankEmpty">Water Tank Empty</string>
+    <string name="waterTankEmptyText">waterTankEmptyText</string>
+
+    <string name="activeSince">Active Since</string>
+    <string name="activeSinceText">activeSinceText</string>
+
+    <string name="plantsText">Plants</string>
+
+    <string name="updateButton">Update</string>
+    <string name="settingsButton">Settings</string>
+    <string name="port">PORT</string>
+    <string name="ip">IP</string>
+    <string name="ok">OK</string>
+    <string name="homeButton">Home</string>
+    <string name="make_default_text">MAKE DEFAULT</string>
+    <string name="original_ip">192.168.1.102</string>
+    <string name="original_port">7777</string>
+    <string name="submit">submit</string>
+</resources>
