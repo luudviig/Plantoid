@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ipPortWindow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_box_shape"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/ipTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:padding="3dp"
+            android:text="@string/ip"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/ipTextField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_box_shape_white"
+            android:ems="10"
+            android:hint="@string/ip"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:padding="3dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/portTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ipTextView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:padding="3dp"
+            android:text="@string/port"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/portTextField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ipTextField"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_box_shape_white"
+            android:ems="10"
+            android:hint="@string/port"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:padding="3dp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/makeDefaultButton"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded_box_shape_white"
+        android:text="@string/make_default_text"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/settingsOkButton"
+        android:layout_width="65dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded_box_shape_white"
+        android:text="@string/submit"
+        android:textSize="14sp" />
+
+
+</LinearLayout>
